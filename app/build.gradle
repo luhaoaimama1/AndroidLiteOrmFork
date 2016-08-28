@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.example.zone.androidliteormfork"
@@ -21,6 +21,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile project(':library')
-//    compile 'com.github.luhaoaimama1:AndroidLiteOrmFork:vv1.9.1'
+//    compile project(':library')
+       compile 'com.github.luhaoaimama1:AndroidLiteOrmFork:1.91'
 }
